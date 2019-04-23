@@ -7,3 +7,36 @@ body
 }
 
 
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+h1.logo
+{
+	
+	font-size: 25 px;
+	font-weight: 400;
+	color: white;	
+	text-align: center;	
+	display: inline-block;
+	padding: 30px 30px 10px 10px;
+	
+}
+
+.navbar
+{
+	min-height: 57px;
+}
+
+
+.bg-tlonavbar
+
+{
+	background-color: black !important;
+}
