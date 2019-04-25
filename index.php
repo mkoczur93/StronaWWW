@@ -85,6 +85,99 @@
 	
 	<main>
 		
+			<section id="kimjestesmy">
+		
+			<div class="container">
+				
+				<header class="kimjestesmy">	
+					<div class="col-md-12" id="data"></div>	
+					<div class="col-md-12" id="zegar"></div> 
+					
+					<h1 class="kimjestesmy">O nas</h1>
+							
+				</header>
+			
+				
+				<div class="row">
+						
+					<div class="col-md-12 col-lg-6 mx-auto d-block ">
+												
+						<p class="textkimjestesmy">Jesteśmy twórcami pochłoniętymi obsesją. Obsesją perfekcji i idealnych realizacji. Dla nas nie ma ograniczeń. Naszym głównym celem jest zrozumienie Twojej idei. To właśnie ona jest dla nas inspiracją. <br><br>
+						Kolejnym etapem jest dogłębna analiza potrzeb Twoich, jak i odbiorców, do których jest kierowana treść. Następnie dochodzimy do kluczowego momentu, w którym spełniamy się najbardziej. Przekuwamy nasze myśli i słowa w czyny, następuje kreacja.<br><br>
+						Zadzwoń lub napisz do nas, opowiedz nam kim jesteś i czego potrzebujesz, a my powiemy, co możemy dla Ciebie zrobić. Jesteśmy dla Ciebie.</p>
+
+					
+					</div>
+					
+					<div class="col-md-12 col-lg-6" >
+					
+						<figure class="kimjestesmy">
+							<img src="img/Kimjestesmy1.jpg" alt="Obrazek_kim_jestesmy">							
+						</figure>
+					
+					</div>
+
+					<div class="col-md-12 col-lg-6">
+					
+						<figure class="kimjestesmy">
+							<img src="img/Kimjestesmy2.jpg" alt="Obrazek_kim_jestesmy">							
+						</figure>
+					
+					</div>
+
+					<div class="col-md-12 col-lg-6 mx-auto d-block">
+						<div class="textkimjestesmy1">
+						<p>Od początku działalności kluczową usługą jest tworzenie stron internetowych dla firm oraz korporacji. Obecnie ofertę stanowią cztery wiodące segmenty:</p>
+						</div>
+						<div class="textkimjestesmy2">
+						<p><br><i class="icon-ok"></i> responsywne strony internetowe,<br><br>
+						<i class="icon-ok"></i> pozycjonowanie stron internetowych,<br><br>
+						<i class="icon-ok"></i> kampanie AdWords,<br><br>
+						<i class="icon-ok"></i> kompleksowa opieka firm 	
+						</p>
+						
+					</div>	
+				
+				</div>
+				</div>
+				</div>
+				
+				
+		</section>
+		
+		<section id="team">
+		
+			<div class="container">
+				
+				<header>
+					
+					<h1 class="team">Team</h1>
+											
+				</header>
+				
+				<div class="row">
+					
+					<div class="col-sm-12 col-md-6">
+												
+						<figure>
+							<a href="https://www.facebook.com/" target="_blank" class="team"> <img src="img/Marcin_Koczur.jpg" alt="Marcin Dudek"></a>
+							<a href="https://www.facebook.com/" target="_blank" class="teamtext"><p> Marcin Dudek </p></a>
+							<figcaption class="teamtext"> Co-founder / Back-end developer / SEO specialist </figcaption>
+						</figure>
+						
+					
+					</div>
+					
+					<div class="col-sm-12 col-md-6">
+					
+						<figure>
+							<a href="https://www.facebook.com/" target="_blank" class="team"><img src="img/Adam_Nowak.jpg" alt="Adam Nowak"></a>
+							<a href="https://www.facebook.com/" target="_blank" class="teamtext"><p> Adam Nowak </p></a>
+							<figcaption class="teamtext"> Front-end Developer / Designer </figcaption>
+						</figure>
+					
+					</div>
+		
 			
 		
 	</main>

@@ -40,3 +40,190 @@ h1.logo
 {
 	background-color: black !important;
 }
+
+
+#team
+{
+	background-color: #2F3336;
+	padding-bottom: 70px;
+	
+}
+h1.team
+{
+	
+	font-size: 60px !important;
+	font-weight: 600;
+	margin-bottom: 80px;
+	color: White;
+	text-transform: uppercase;
+	padding-top:80px;
+}
+
+.team
+{
+	text-align: center;
+	margin-top: 200px; 
+}
+
+.team img
+{
+	width: 76%;
+	height: auto;
+	border-radius: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;	
+	margin-left:12%;
+	
+	
+	
+	
+	
+}
+
+.teamtext
+{
+	
+	text-align:center;
+	
+}
+
+.team figcaption
+{
+	margin-top: 5px;
+	
+	
+		
+}
+
+a:link
+{
+	color: black;
+	text-decoration: none;
+	
+}
+a:visited
+{
+	text-decoration: none;
+	color: white;
+}
+a:hover
+{
+	color: gray;
+	text-decoration: none;	
+}
+
+
+a.team:alink
+{
+	opacity: 1;
+	color: white;
+	text-decoration: none;
+	
+}
+a.team:visited
+{
+	opacity: 1;
+	text-decoration: none;
+	color: white;
+}
+a.team:hover
+{
+	opacity: 0.8;
+	color: gray;
+	text-decoration: none;	
+}
+
+a.teamtext:alink
+{
+	opacity: 1;
+	color: white;
+	text-decoration: none;
+	
+}
+a.teamtext:visited
+{
+	opacity: 1;
+	text-decoration: none;
+	color: white;
+}
+a.teamtext:hover
+{
+	opacity: 0.8;
+	color: gray;
+	text-decoration: none;	
+}
+
+#kimjestesmy
+{
+	background-color: #1e2225
+}
+
+img
+{
+	width: 100%;
+	height: auto;
+	
+	
+}
+
+
+h1.kimjestesmy
+{	
+	
+	width:auto;
+	height: 100%;
+	font-size: 60px !important;
+	font-weight: 600;
+	padding: 10px;
+	color: White;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;	
+	height: 100%;
+	
+	
+}
+
+
+.textkimjestesmy
+{	
+	text-align:justify;
+	font-size: 17px;	
+	width: 100%;
+	height: 100%;	
+	
+		
+	
+	
+}
+
+.textkimjestesmy1
+{	
+	font-size: 17px;	
+	width: 100%;		
+	height:18%;
+	text-align:justify;
+	
+}
+.textkimjestesmy2
+{	
+	padding-top:15px;
+	font-size: 17px;	
+	width: 100%;
+	height: 72%;	
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	
+}
+
+.kimjestesmy img
+{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	
+	
+	
+}
