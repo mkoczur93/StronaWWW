@@ -177,6 +177,153 @@
 						</figure>
 					
 					</div>
+
+					<div class="col-sm-12 col-md-6">
+					
+						<figure>
+							<a href="https://www.facebook.com/" target="_blank" class="team"><img src="img/elon-musk.jpg" alt="Elon Musk"></a>
+							<a href="https://www.facebook.com/" target="_blank" class="teamtext"><p> Elon Musk </p></a>							
+							<figcaption class="teamtext"> Ceo </figcaption>
+						</figure>
+					
+					</div>
+
+					<div class="col-sm-12 col-md-6">
+					
+						<figure>
+							<a href="https://www.facebook.com/" target="_blank" class="team"><img src="img/Dawid_Kowalski.jpg" alt="Dawid Kowalski"></a>	
+							<a href="https://www.facebook.com/" target="_blank" class="teamtext"><p> Dawid Kowalski </p></a>							
+							<figcaption class="teamtext"> Co-founder / Back-end developer / SEO specialist </figcaption>
+						</figure>
+					
+					</div>
+
+					
+
+					
+					
+					</div>	
+				
+				</div>
+				
+				
+				
+		</section>
+		
+	
+		
+		<section id="cennik">
+		
+			<div class="container">
+				
+				<header>
+					
+					<h1 class="Cennik">Cennik</h1>
+					<h1 class="Cennik1">Sprawdź naszą ofertę</h1>
+					<h4 class="Cennik2">W przypadku pozycjonowania stron ceny ustalane są indywidualnie.</h4>
+
+											
+				</header>
+				
+				<div class="row">
+				
+					<div class="col-sm-12 col-md-4">
+												
+							<div class="CennikPojemnikOpcje">
+						
+								<div class="CennikOpcje">
+						
+									<div class="CennikTop">
+										<h2 class="CennikNapisGlowny">e-Sklepy</h2>			
+						
+									</div>
+						
+									<div class="CennikMiddle">
+										<h2 class="CennikNapisCena">od 2000 zł</h2>
+									</div>
+									
+									<div class="CennikBottom">									
+										<p>
+										<i class="icon-ok"></i> Serwer na rok czasu GRATIS!<br><br>
+										<i class="icon-ok"></i> Popularne skrypty sprzedażowe<br><br>
+										<i class="icon-ok"></i> Pomoc przy wyborze słów kluczowych<br><br>
+										<i class="icon-ok"></i> Optymalizacja pod kątem SEO</p>
+									</div>
+						
+								</div>
+						
+							</div>
+						
+					
+					</div>
+					
+					<div class="col-sm-12 col-md-4">
+					
+						<div class="CennikPojemnikOpcje">
+						
+							<div class="CennikOpcje1">
+						
+								<div class="CennikTop">
+								
+								<h2 class="CennikNapisGlowny"><br>Strony WWW</h2>						
+						
+								</div>
+								<div class="CennikMiddle">
+										<h2 class="CennikNapisCena">od 800 zł</h2>
+									</div>
+									
+									<div class="CennikBottom">									
+										<p class="kolorczarny">
+										<br><i class="icon-ok"></i> Serwer na rok czasu GRATIS!<br><br>									
+										<i class="icon-ok"></i> 10 Kont Email<br><br>
+										<i class="icon-ok"></i> Pomoc przy wyborze domeny<br><br>
+										<i class="icon-ok"></i> Optymalizacja pod kątem SEO</p>									
+									</div>
+						
+							</div>
+						
+						</div>
+					
+					</div>
+
+							<div class="col-sm-12 col-md-4">
+												
+							<div class="CennikPojemnikOpcje">
+						
+								<div class="CennikOpcje">
+						
+									<div class="CennikTop">
+										<h2 class="CennikNapisGlowny">Spoty Reklamowe</h2>		
+						
+									</div>
+						
+									<div class="CennikMiddle">
+										<h2 class="CennikNapisCena">od 1200 zł</h2>
+									</div>
+									
+									<div class="CennikBottom">									
+										<p>
+										<i class="icon-ok"></i> Wysoka jakość nagrania Full HD<br><br>
+										<i class="icon-ok"></i> Licencjonowany podkład muzyczny<br><br>
+										<i class="icon-ok"></i> Bez ograniczeń czasowych<br><br>
+										<i class="icon-ok"></i> Profesjonalni lektorzy (za dopłatą)</p>
+									</div>
+						
+								</div>
+						
+							</div>
+						
+					
+					</div>
+
+					
+					</div>	
+				
+				</div>
+				
+				
+				
+		</section>
 		
 			
 		
