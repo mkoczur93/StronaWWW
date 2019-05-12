@@ -1,5 +1,28 @@
 <!DOCTYPE html>
+
+<?php
+
+	session_start();
+	
+	if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
+	{
+		header('Location: zalogowany.php');
+		exit();
+	}
+
+?>
+
+<?php
+
+if (isset($_GET['ide3']))
+	{
+	echo "<h1 style='background:grey'>Wysłano wiadomość dziękujemy</h1>";
+	}
+
+	?>
+
 <html lang="pl">
+
 <head>
 
 	<meta charset="utf-8">
@@ -22,8 +45,7 @@
 	
 	
 </head>
-
-<body>
+<body onload="odliczanie(), podaj_date(); ">
 
 	
 	<header class="sticky">
@@ -53,9 +75,15 @@
 					</li>
 					
 					<li class="nav-item">
-						<a class="nav-link disabled" title="Dla zalogowanych"> Sklep </a>
+						<a class="nav-link"  href="lista.php"> Sklep </a>
 					</li>
 					
+					<li class="nav-item">
+						<a class="nav-link"  href="koszyk.php"> Koszyk </a>
+					</li>
+				
+					
+				
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true"> Kontakt </a>
 						
@@ -72,7 +100,7 @@
 			
 				<form class="form-inline">					
 					
-					<button onclick="location.href='?'" type="button">
+					<button onclick="location.href='logowanie.php'" type="button">
 					Zaloguj się</button>
 				
 				</form>
@@ -325,15 +353,227 @@
 				
 		</section>
 		
+		
+		
+		<section id="jak">		
+		<div class="container">
+		<div class="row">
+		<div class="col-sm-12">
+		
+		<header>		
+	<h1 class="JakDojechac">Jak do nas dojechac ?</h1>	
+	</header>
+	</div>
+	
+	<div class="col-sm-12">
+	<div class="textdiv">	
+	
+		<p class="textjakdojechac">
+		-----------------------------------------------<br>
+		Adres:<br>
+		Klinika Stron WWW i Seo<br>		
+		Polska Marcin Koczur<br>
+		40-533 Opole<br>
+		ul. Ozimska 5 <br>
+		----------------------------------------------
+		<p>
+	</div>
+	</div>
+	<div class="col-sm-12">
+	<div class="wysrodkuj">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2528.551279152082!2d17.948993795808548!3d50.672591412409346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471053a15d6dac6b%3A0xf604e2541d5e6fb7!2sSalon+NC%2B+Opole!5e0!3m2!1spl!2sus!4v1552498715943"></iframe>
+	<div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</section>
+		
+		<section id="formularz">
+		
+		<div class="container">		
+		<header>
+		<h1 class="formularznaglowek">Formularz</h1>
+		</header>
+		<div class="row">
+		<div class="col-sm-12">      
+			<div class="wysrodkuj1">
+			<form action="mail.php" method="post" enctype="multipart/form-data">
+				<input type="text" name="imie" placeholder="Imie"><p></p>
+				<input type="email" name="email" placeholder="E-mail"><p></p>
+				<label class="dolewej">Telefon Kontaktowy:</label>
+				<p></p>
+				<div class="dolewej">
+			    <input type="tel" size="9" maxlength="9" name="telefon" pattern="[0-9]{9}" value="" onkeyup="FormUtil.tabForward(this)" />				
+		
+				</div>
+				<p></p>
+				<label class="dolewej">Wybierz plik:</label>
+				<input type="hidden" name="MAX_FILE_SIZE" value="512000" />
+				<input type="file" name="plik" id="plik" accept="image/jpeg,image/gif">  				
+				<textarea name="wiadomosc" placeholder="Wiadomosc"></textarea><br>
+				<input type="submit" name="submit" value="Wyslij">
+			</form>
+				
 			
+		</div>
+        </div>
+		</div>
+		</div>
+		</section>
 		
 	</main>
 	
-
-
+	
+	<footer class="footer">
+		<div class="tlosocials">
+		<div class="container">
+		
+			<div class="row no-gutters">	
+			
+				<div class="col-sm-12 col-md-3">
+				<a href="https://www.facebook.com/" target="_blank" class="socialwhite">
+				<div class="fb">
+				
+				
+						<i class="icon-facebook"></i>
+				</div></a>
+				</div>
+				
+				<div class="col-sm-12 col-md-3">
+				<a href="https://www.youtube.com/" target="_blank" class="socialwhite">
+				<div class="yt">
+				
+				
+				<i class="icon-youtube"></i>
+					
+					</div></a>
+					</div>
+				
+				<div class="col-sm-12 col-md-3">
+				<a href="https://www.twiter.com/" target="_blank" class="socialwhite">
+				<div class="tw">
+				
+				
+					<i class="icon-twitter"></i>
+				</div></a>
+				
+				</div>
+				<div class="col-sm-12 col-md-3">
+				<a href="https://www.gplus.com/" target="_blank" class="socialwhite">
+				<div class="gplus">
+				
+				
+				
+					<i class="icon-gplus"></i>
+				
+				</div></a>
+				</div>
+		</div>
+		</div>
+		</div>
+		
+	
+	</footer>
+	
+	<footer class="footer1">
+	
+		<div class="container">
+		<div class="col-12" >
+		
+			<h5 class="stopka">Wszelkie prawa zastrzeżone !</h5>
+			</div>			
+			</div>
+		
+	</footer>
+	
+	
+	<script src="timer.js"></script>
+	<script src="data.js"></script>
+	
+	 <script src="formutil.js"></script>
 	
 	<script src="jquery-1.11.3.min.js"></script>
+	
+	
+	
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	z
+	
 	<script src="js/bootstrap.min.js"></script>
+	
+	<script>
+
+	$(document).ready(function() {
+	var NavY = $('.nav').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.nav').addClass('sticky');
+	} else {
+		$('.nav').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="jquery.scrollTo.min.js"></script>
+
+
+
+
+
+<script>       
+
+      $(document).ready(function() {
+    $('a[href^="#"]').click(function() {
+        var hash = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top-125
+        }, 1500);
+		
+        return false;
+    });
+});
+ 
+     
+    </script>
+	
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="cookie.js"></script>
+
+<script>
+ 
+$(document).ready(function() {
+	var message = 'Używamy plików cookies, aby ułatwić Ci korzystanie z naszego serwisu oraz do celów statystycznych. Jeśli nie blokujesz tych plików, to zgadzasz się na ich użycie oraz zapisanie w pamięci urządzenia. Pamiętaj, że możesz samodzielnie zarządzać cookies, zmieniając ustawienia przeglądarki.';
+	var message2 = 'ROZUMIEM, NIE POKAZUJ WIĘCEJ TEGO OKNA.';
+ 
+	var div = '<div class="cookie-alert" style="position:relative;z-index: 100;margin-top:125px;width:auto;text-align:center;background-color:#000000;color:#FFFFFF;opacity:0.8;font-size:13px;font-weight:bold;font-family:tahoma;padding-top:20px;padding-bottom:10px;"><div style="width:;margin:0 auto;">'+message+'<br /><br /><span style="color:red;cursor:pointer;margin-top:0px;z-index:;" class="cookie-alert2">'+message2+'</span></div></div>';
+ 
+	var ciastko = getCookie('cookie-alert');
+	if(ciastko != 1) {
+		$('body').prepend(div);
+	}
+ 
+	$('.cookie-alert2').click(function() {
+		$('.cookie-alert').slideUp('slow');
+		setCookie('cookie-alert', 1, 800);
+	});
+});
+</script>
+	
 	
 	
 </body>
