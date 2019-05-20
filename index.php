@@ -1,28 +1,5 @@
 <!DOCTYPE html>
-
-<?php
-
-	session_start();
-	
-	if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
-	{
-		header('Location: zalogowany.php');
-		exit();
-	}
-
-?>
-
-<?php
-
-if (isset($_GET['ide3']))
-	{
-	echo "<h1 style='background:grey'>Wysłano wiadomość dziękujemy</h1>";
-	}
-
-	?>
-
 <html lang="pl">
-
 <head>
 
 	<meta charset="utf-8">
@@ -45,6 +22,7 @@ if (isset($_GET['ide3']))
 	
 	
 </head>
+
 <body onload="odliczanie(), podaj_date(); ">
 
 	
@@ -75,15 +53,9 @@ if (isset($_GET['ide3']))
 					</li>
 					
 					<li class="nav-item">
-						<a class="nav-link"  href="lista.php"> Sklep </a>
+						<a class="nav-link disabled" title="Dla zalogowanych"> Sklep </a>
 					</li>
 					
-					<li class="nav-item">
-						<a class="nav-link"  href="koszyk.php"> Koszyk </a>
-					</li>
-				
-					
-				
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true"> Kontakt </a>
 						
@@ -405,8 +377,9 @@ if (isset($_GET['ide3']))
 				<label class="dolewej">Telefon Kontaktowy:</label>
 				<p></p>
 				<div class="dolewej">
-			    <input type="tel" size="9" maxlength="9" name="telefon" pattern="[0-9]{9}" value="" onkeyup="FormUtil.tabForward(this)" />				
-		
+			    <input type="tel" size="3" maxlength="3" pattern="[0-9]{3}" value="" onkeyup="FormUtil.tabForward(this)" />				
+				<input type="tel" size="3" maxlength="3" pattern="[0-9]{3}" value="" onkeyup="FormUtil.tabForward(this)" />
+				<input type="tel" size="3" maxlength="3" pattern="[0-9]{3}" value="" onkeyup="FormUtil.tabForward(this)" />
 				</div>
 				<p></p>
 				<label class="dolewej">Wybierz plik:</label>
