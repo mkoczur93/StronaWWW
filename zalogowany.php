@@ -4,6 +4,7 @@
 	
 	if (!isset($_SESSION['zalogowany']))
 	{
+	    //$_SESSION['sklep']=array();
 		header('Location: index.php');
 		exit();
 	}
